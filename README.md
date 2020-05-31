@@ -1,0 +1,1 @@
+# Equirectangular-rotate
