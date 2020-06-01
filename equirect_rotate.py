@@ -54,8 +54,8 @@ def isEquirect(height, width):
     if(height*2 != width):
         print("Warning: Source Image is not an Equirectangular Image...")
         print("height is %d, width is %d" %(height, width))
-        return 0
-    return 1
+        return False
+    return True
 
 def Equirect_Rotate(src_img, rot_x, rot_y, rot_z, isInverse = False, unit = 'degree'):
     height = src_img.shape[0]

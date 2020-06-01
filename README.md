@@ -6,6 +6,11 @@
 ### Transform Spherical Coordinate into Longitute-Latitute
 ![](./docs-img/spherical2equirect.png)
 
+## Requirements
+- numpy
+- Pillow
+- argparse
+
 ## Usage
 ```
 positional arguments:
