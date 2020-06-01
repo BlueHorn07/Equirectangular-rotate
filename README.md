@@ -2,9 +2,9 @@
 
 ## Theory
 ### Transform Longitute-Latitute into Spherical Coordinate
-![](./docs-img/equirect2sphere.png)
+![](./docs-img/equirect2sphere.png){: width="80%"}
 ### Transform Spherical Coordinate into Longitute-Latitute
-![](./docs-img/spherical2equirect.png)
+![](./docs-img/spherical2equirect.png){: width="80%"}
 
 ## Requirements
 - numpy
