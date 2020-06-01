@@ -2,9 +2,10 @@
 
 ## Theory
 ### Transform Longitute-Latitute into Spherical Coordinate
-![](./docs-img/equirect2sphere.png){: width="80%"}
+<img src="./docs-img/equirect2sphere.png" width="70%">
+
 ### Transform Spherical Coordinate into Longitute-Latitute
-![](./docs-img/spherical2equirect.png){: width="80%"}
+<img src="./docs-img/spherical2equirect.png" width="70%">
 
 ## Requirements
 - numpy
@@ -35,9 +36,11 @@ for example
 python main.py equirect-test.png 45 45 45 out_img.png
 ```
 
+You **MUST** input the equirectangular image file, whose width is doulbe of its height.
+
 `main_with_time.py` is provided in `/testbench/` folder
 
-## Performance
+## Result
 - **Original Image**
 ![](./testbench/equirect-test.png)
 
@@ -46,3 +49,6 @@ python main.py equirect-test.png 45 45 45 out_img.png
 
 - **x - 180°, y - 0, z - 0**
 ![](testbench/x180.png)
+
+## Performance
+On my computer it tooks 1.9 sec, for height 512, width 1024 Equirectangular Image.
